@@ -1,0 +1,88 @@
+
+@import "syntax";
+@import "poole";
+@import "lanyon";
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Courgette|Kalam);
+
+html{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+	color: #515151;
+}
+
+p {
+	font-weight: 300;
+}
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+	position: relative;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 3rem;
+	background-color: #59abe3;
+}
+.masthead-title {
+ 	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.8;
+	color: #fff;
+	font-weight: 700;
+	font-size:2.5rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.masthead-title a {
+	color: #fff;
+}
+
+.masthead-title a:hover {
+  text-decoration: none;
+}
+
+.masthead-title small {
+  font-size: 50%;
+  font-weight: 400;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 0;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+.masthead-title_tagline{
+	font-size: 54%;
+  font-weight: 300;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 0;
+  font-family: 'Courgette', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 38em) {
+  html {
+    font-size: 24px;
+  }
+}
+
+footer{
+	position: relative;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 0;
+	background-color: #a2d7e4;
+	text-align: center;
+}
+
+.footer .contact {
+clear:both;
+float:none;
+margin-right: 3em;
+}
