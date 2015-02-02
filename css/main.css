@@ -1084,14 +1084,14 @@ p {
 .masthead-title small {
   font-size: 50%;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0;
   font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
 
 .masthead-title_tagline {
   font-size: 74%;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0;
   font-family: 'Courgette', Helvetica, Arial, sans-serif; }
 
