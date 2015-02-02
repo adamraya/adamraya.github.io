@@ -10,6 +10,8 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+
+
 /**
  * Build the Jekyll Site
  */

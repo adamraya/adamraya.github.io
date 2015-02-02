@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Courgette|Kalam);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Courgette);
 .highlight .hll {
   background-color: #ffc; }
 
@@ -1069,7 +1069,7 @@ p {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 0.8;
+  line-height: 0.9;
   color: #fff;
   font-weight: 700;
   font-size: 2.5rem;
@@ -1089,7 +1089,7 @@ p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
 
 .masthead-title_tagline {
-  font-size: 54%;
+  font-size: 74%;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0;
@@ -1110,4 +1110,70 @@ footer {
 .footer .contact {
   clear: both;
   float: none;
-  margin-right: 3em; }
+  margin-right: 0em; }
+
+.twitter {
+  background-image: url(../images/icons/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: top-left; }
+
+.twitter:hover {
+  -webkit-transition: text-indent 0.4s, opacity 0.4s;
+  opacity: 1;
+  text-indent: -14%; }
+
+.linkedin {
+  background-image: url(../images/icons/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: top-left; }
+
+.linkedin:hover {
+  -webkit-transition: text-indent 0.4s, opacity 0.4s;
+  opacity: 1;
+  text-indent: 0; }
+
+.github {
+  background-image: url(../images/icons/github.svg);
+  background-repeat: no-repeat;
+  background-position: top-left; }
+
+.github:hover {
+  -webkit-transition: text-indent 0.4s, opacity 0.4s;
+  opacity: 1;
+  text-indent: -7%; }
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 0; }
+
+.social-links li {
+  margin: 0 0.3em;
+  padding: 0;
+  display: inline-block; }
+
+.social-icon {
+  height: 68px;
+  width: 68px;
+  background-size: 34px 34px !important;
+  background-position: center center;
+  background-color: transparent;
+  border-radius: 3em;
+  display: inline-block;
+  line-height: 48px;
+  font-size: 0.8rem;
+  text-indent: -9999px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+  transition: text-indent 0.4s, opacity 0.4s;
+  margin-top: 0.5rem; }
+
+.social-icon:hover {
+  background-color: white;
+  opacity: 0.8; }
+
+.social-text {
+  top: 0;
+  position: absolute; }
