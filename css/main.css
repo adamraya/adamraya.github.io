@@ -1120,7 +1120,7 @@ footer {
 .twitter:hover {
   -webkit-transition: text-indent 0.4s, opacity 0.4s;
   opacity: 1;
-  text-indent: -14%; }
+  text-indent: -16%; }
 
 .linkedin {
   background-image: url(../images/icons/linkedin.svg);
@@ -1130,7 +1130,7 @@ footer {
 .linkedin:hover {
   -webkit-transition: text-indent 0.4s, opacity 0.4s;
   opacity: 1;
-  text-indent: 0; }
+  text-indent: -2%; }
 
 .github {
   background-image: url(../images/icons/github.svg);
@@ -1140,7 +1140,7 @@ footer {
 .github:hover {
   -webkit-transition: text-indent 0.4s, opacity 0.4s;
   opacity: 1;
-  text-indent: -7%; }
+  text-indent: -9%; }
 
 .social-links {
   list-style-type: none;
