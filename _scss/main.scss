@@ -75,11 +75,11 @@ p {
 }
 
 header > div > div > div > a > img{
-	  width: 8em;
-	  	display: block;
-  		background: #fff;
+	  width: 7em;
+	  display: block;
+	  background: #fff;
 	  border: 5px solid #fff;
-	  border-radius: 12px;
+	  border-radius: 50%;
 	  box-shadow: 0 1px 1px rgba(136,153,166,0.55)
 }
 @media (max-width: 48em){
@@ -97,13 +97,12 @@ header > div > div > div > a > img{
 		margin-left: auto;
 		margin-right: auto;
 		width: 6em;
-		hieght: 6em;
 		float: none;
 	  	margin: 25px auto 20px;
 	  	display: block;
 	  	background: #fff;
 		border: 4px solid #fff;
-		border-radius: 12px;
+		border-radius: 50%;
 		box-shadow: 0 1px 1px rgba(136,153,166,0.35);
 	}
 }
